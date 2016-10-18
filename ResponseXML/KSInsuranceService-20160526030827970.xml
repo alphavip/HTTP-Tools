@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+  <NS1:Body>
+    <NS2:getKSPayInfoResponse xmlns:NS2="http://webservices.service.kslw.sinosoft.com/">
+      <return>
+        <responseHeadVo>
+          <errorCode>6905</errorCode>
+          <errorMessage>6905_目标省服务访问超时</errorMessage>
+          <insurerArea/>
+          <queryFailedArea>230000</queryFailedArea>
+          <responseCode>0</responseCode>
+        </responseHeadVo>
+      </return>
+    </NS2:getKSPayInfoResponse>
+  </NS1:Body>
+</NS1:Envelope>

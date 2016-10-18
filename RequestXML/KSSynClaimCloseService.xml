@@ -1,0 +1,31 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:getClaimCloseInfo  xmlns:m="http://webservices.service.kslw.sinosoft.com/">
+			<arg0>
+				<RecoveryCode>1</RecoveryCode>
+				<caInsurerArea>1</caInsurerArea>
+				<caInsurerCode>1</caInsurerCode>
+				<PolicyType>1</PolicyType>
+				<insurerArea>1</insurerArea>
+				<insurerCode>1</insurerCode>
+				<subrogationStatus>1</subrogationStatus>
+				<ksBusinessNo>1</ksBusinessNo>
+				<plainText>1</plainText>
+				<cipherText>1</cipherText>
+				<projectType>1</projectType>
+			</arg0>
+			<arg1>
+				<ksLockedCaseVo>
+					<RecoveryCodeStatus>1</RecoveryCodeStatus>
+					<RecoverStatus>1</RecoverStatus>
+					<claimProgress>1</claimProgress>
+				</ksLockedCaseVo>
+				<ksPayInfoVo>
+					<CoverageCode>1</CoverageCode>
+					<RecOrPayAmount>1</RecOrPayAmount>
+					<PayRemark>1</PayRemark>
+				</ksPayInfoVo>
+			</arg1>
+		</m:getClaimCloseInfo>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

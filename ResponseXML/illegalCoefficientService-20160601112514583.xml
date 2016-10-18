@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+  <NS1:Body>
+    <NS2:IllegalCoefficientQueryResponse xmlns:NS2="http://service.ciitcwfxs.ciitc.cn/">
+      <return>
+        <esbErrorMessageVo>
+          <errorMessage>6905_交通违法系数查询系统服务访问超时</errorMessage>
+          <errorCode>6905</errorCode>
+        </esbErrorMessageVo>
+      </return>
+    </NS2:IllegalCoefficientQueryResponse>
+  </NS1:Body>
+</NS1:Envelope>

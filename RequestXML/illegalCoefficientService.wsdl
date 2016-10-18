@@ -1,0 +1,35 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://service.ciitcwfxs.ciitc.cn/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ser:IllegalCoefficientQuery>
+      <arg0>
+        <busiServName>illegalCoefficientService</busiServName>  
+        <businessNo>VSPICC4200160420160346975400212</businessNo>  
+        <userName>hxxt</userName>  
+        <userToken>638C2297BD5947FC1BFC6D710A572CA0</userToken>
+         </arg0>
+         <arg1>
+         <atomicObject>
+            <requestXML><![CDATA[<Packet type="REQUEST" version="1.0">
+	          <Head>
+<RequestType>L3001</RequestType>
+<AreaCode>320000</AreaCode>
+<CompanyCode>ACIC</CompanyCode>
+<Coverage>01</Coverage>
+<UserName>test1</UserName>
+<PassWord>test1</PassWord>
+</Head>
+<Body>
+<LicenseNo>ку123456</LicenseNo>
+<LicenseType>02</LicenseType>
+<VIN>1G1BL52P7TR115520</VIN>
+<EnginNo>8E40221408</EnginNo>
+<StartTime>20150419 17:00</StartTime>
+<EndTime>20160419 19:00</EndTime>
+</Body>
+</Packet>]]> </requestXML>
+         </atomicObject> 
+         </arg1>
+      </ser:IllegalCoefficientQuery>
+   </soapenv:Body>
+</soapenv:Envelope>

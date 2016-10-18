@@ -1,0 +1,25 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:getResponseHeadVo xmlns:m="http://webservices.service.kslw.sinosoft.com/">
+			<arg0>
+				<caInsurerArea>610000</caInsurerArea>
+				<caInsurerCode>PICC</caInsurerCode>
+				<insurerArea>420000</insurerArea>
+				<insurerCode>PAIC</insurerCode>
+				<projectType>2</projectType>
+				<recoveryCode>V3202PAIC420013001372914445269</recoveryCode>
+				<subrogationStatus>1</subrogationStatus>
+				<cipherText>6464E1DB143D54B5D51DCA0EF5F3479C</cipherText>
+				<ksBusinessNo>KS01PAIC4200140106161837222450307</ksBusinessNo>
+				<plainText>SY9uGewideDtUQyrvoNdxOwHWGcwILVq</plainText>
+			</arg0>
+			<arg1>
+				<claimProgress>06</claimProgress>
+				<failureCause>2</failureCause>
+				<recoverStatus>7</recoverStatus>
+				<recoveryCodeLoseDate>2013-07-04T15:43:00+08:00</recoveryCodeLoseDate>
+				<recoveryCodeStatus>4</recoveryCodeStatus>
+			</arg1>
+		</m:getResponseHeadVo>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

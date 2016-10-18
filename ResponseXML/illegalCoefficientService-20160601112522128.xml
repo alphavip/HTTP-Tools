@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NS1:Envelope xmlns:NS1="http://schemas.xmlsoap.org/soap/envelope/">
+  <NS1:Body>
+    <NS2:getBusNcdResInfoResponse xmlns:NS2="http://webservices.service.kslw.sinosoft.com/">
+      <return>
+        <responseHeadVo>
+          <errorCode>9999</errorCode>
+          <errorMessage>9999_未知异常</errorMessage>
+          <insurerArea/>
+          <queryFailedArea/>
+          <responseCode>0</responseCode>
+        </responseHeadVo>
+      </return>
+    </NS2:getBusNcdResInfoResponse>
+  </NS1:Body>
+</NS1:Envelope>

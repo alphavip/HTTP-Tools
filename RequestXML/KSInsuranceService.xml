@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
+  <SOAP-ENV:Body> 
+    <m:getBusNcdResInfo xmlns:m="http://webservices.service.kslwcb.sinosoft.com/">  
+      <arg0> 
+        <caInsurerArea>230000</caInsurerArea>  
+        <cipherText>63CAF9DFFE28768052EC3327EC942664</cipherText>  
+        <insurerArea>370000</insurerArea>  
+        <insurerCode>PAIC</insurerCode>  
+        <plainText>EghJ0MXK59APvZjaQC5mVMwGOZ8dpMv0</plainText>  
+        <projectType>2</projectType>  
+        <kSBusinessNo>KSCBPAIC3700150728110208659424902</kSBusinessNo> 
+      </arg0>  
+      <arg1> 
+        <areaCode>370000</areaCode>  
+        <bizType>1</bizType>  
+        <caInsurerArea>110000</caInsurerArea>  
+        <companyCode>PAIC</companyCode>  
+        <effectiveDate>2015-07-28T00:00:00+08:00</effectiveDate>  
+        <engineNo>CNV000616</engineNo>  
+        <expireDate>2016-07-26T00:00:00+08:00</expireDate>  
+        <ksBusinessNo/>  
+        <ksNearAreaFlag>2</ksNearAreaFlag>  
+        <licenseNo>BR0616</licenseNo>  
+        <licenseType>02</licenseType>  
+        <motorTypeCode>11</motorTypeCode>  
+        <queryDate>2013-07-28T11:02:08.505+08:00</queryDate>  
+        <registerDate>2013-08-01T00:00:00+08:00</registerDate>  
+        <vin>WAUAYA8X7CB050616</vin>  
+        <kSAreaCode/> 
+      </arg1> 
+    </m:getBusNcdResInfo> 
+  </SOAP-ENV:Body> 
+</SOAP-ENV:Envelope>

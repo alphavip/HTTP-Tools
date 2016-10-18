@@ -1,0 +1,18 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SOAP-ENV:Body>
+		<m:getKSCaseInfo xmlns:m="http://webservices.service.kslw.sinosoft.com/">
+			<arg0>
+				<caInsurerArea>420000</caInsurerArea>
+				<caInsurerCode>PAIC</caInsurerCode>
+				<insurerArea>610000</insurerArea>
+				<insurerCode>PICC</insurerCode>
+				<projectType>1</projectType>
+				<recoveryCode>V3202PAIC420013001377159029101</recoveryCode>
+				<subrogationStatus>2</subrogationStatus>
+				<cipherText>2330AA42966B8819EEFBDF2AA3B0E7FD</cipherText>
+				<ksBusinessNo>KS02PICC6100130913170655494823852</ksBusinessNo>
+				<plainText>xXjSloFwJWVQjJoSoXZHsBomcspc8gN9</plainText>
+			</arg0>
+		</m:getKSCaseInfo>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
